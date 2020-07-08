@@ -1,0 +1,38 @@
+﻿namespace InternetArchive.API.Domain.Sorting
+{
+	public enum ResultSorter
+	{
+		__random,
+		__sort,
+		addeddate,
+		avg_rating,
+		call_number,
+		createdate,
+		creatorSorter,
+		creatorSorterRaw,
+		date,
+		downloads,
+		foldoutcount,
+		headerImage,
+		identifier,
+		identifierSorter,
+		imagecount,
+		indexdate,
+		item_size,
+		languageSorter,
+		licenseurl,
+		mediatype,
+		mediatypeSorter,
+		month,
+		nav_order,
+		num_reviews,
+		programSorter,
+		publicdate,
+		reviewdate,
+		stars,
+		titleSorter,
+		titleSorterRaw,
+		week,
+		year,
+	}
+}
